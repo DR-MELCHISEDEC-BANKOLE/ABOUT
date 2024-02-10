@@ -66,4 +66,30 @@
     display: block;
 }
 
+/* Styles for tab buttons */
+.tab-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Default button style */
+.tab-button.active {
+    background-color: blue; /* Biography button color */
+    color: white; /* Text color for active button */
+}
+
+.tab-button[data-tab="mission"] {
+    background-color: green; /* Teaching Mission button color */
+    color: white; /* Text color for active button */
+}
+
+.tab-button[data-tab="approach"] {
+    background-color: red; /* Systematic Approach button color */
+    color: white; /* Text color for active button */
+
+}
+
 /* Additional styles as needed */

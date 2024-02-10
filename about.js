@@ -27,7 +27,7 @@ function createCarousel() {
 // 3. Call-to-Action Button
 function createCTAButton() {
     const ctaButton = document.createElement('a');
-    ctaButton.textContent = 'Join Now for Free';
+    ctaButton.textContent = 'Join Us Now for Free';
     ctaButton.classList.add('cta-button');
     ctaButton.href = 'plan.html'; // Link to plan.html
     document.body.appendChild(ctaButton);

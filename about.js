@@ -1,4 +1,4 @@
-// JavaScript functionalities for enhancing the "About" section:
+// JavaScript functionalities for enhancing the About section:
 
 // 1. Interactive Tabs for Biography Sections
 function createTabs() {
@@ -18,11 +18,11 @@ function createTabs() {
     });
 }
 
-// 2. Image Carousel
-function createCarousel() {
-    // Add code to create carousel here
-    // This could involve using a library like Swiper.js or implementing custom carousel logic
-}
+// 2. Image Carousel (Commented Out)
+// function createCarousel() {
+//     // Add code to create carousel here
+//     // This could involve using a library like Swiper.js or implementing custom carousel logic
+// }
 
 // 3. Call-to-Action Button
 function createCTAButton() {
@@ -33,19 +33,19 @@ function createCTAButton() {
     document.body.appendChild(ctaButton);
 }
 
-// 4. Accordion for Additional Information
-function createAccordion() {
-    const accordionItems = document.querySelectorAll('.accordion-item');
+// 4. Accordion for Additional Information (Commented Out)
+// function createAccordion() {
+//     const accordionItems = document.querySelectorAll('.accordion-item');
 
-    accordionItems.forEach(item => {
-        const header = item.querySelector('.accordion-header');
-        const content = item.querySelector('.accordion-content');
+//     accordionItems.forEach(item => {
+//         const header = item.querySelector('.accordion-header');
+//         const content = item.querySelector('.accordion-content');
 
-        header.addEventListener('click', () => {
-            content.classList.toggle('active');
-        });
-    });
-}
+//         header.addEventListener('click', () => {
+//             content.classList.toggle('active');
+//         });
+//     });
+// }
 
 // 5. Smooth Scrolling
 function smoothScrolling() {
@@ -64,8 +64,8 @@ function smoothScrolling() {
 // Call functions to initialize enhancements
 window.addEventListener('DOMContentLoaded', () => {
     createTabs();
-    createCarousel();
+    // createCarousel(); // Commented out to disable Carousel
     createCTAButton();
-    createAccordion();
+    // createAccordion(); // Commented out to disable Accordion
     smoothScrolling();
 });

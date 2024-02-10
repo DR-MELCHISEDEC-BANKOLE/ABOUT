@@ -1,4 +1,3 @@
-<response>
 # To enhance the "About" section with JavaScript functionalities, the following features are implemented:
 
 | Feature                             | Description                                                                                                              |
